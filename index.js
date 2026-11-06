@@ -5,7 +5,7 @@
     obsidian: { label: 'Obsidian', path: '03-obsidian/index.html' },
     precision: { label: 'Precision', path: '04-precision/index.html' },
   };
-  const defaultTemplate = 'monarch';
+  const defaultTemplate = 'precision';
   const storageKey = 'demo-autocare-template-v1';
 
   const bar = document.querySelector('.showcase-bar');
@@ -30,7 +30,7 @@
     }
   };
 
-  // ?template=precision makes a specific template shareable as a link.
+  // ?template=monarch makes a specific template shareable as a link.
   const updateAddress = (key) => {
     const url = new URL(window.location.href);
     if (key === defaultTemplate) url.searchParams.delete('template');

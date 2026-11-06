@@ -252,7 +252,7 @@ a {
   color: var(--brand);
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1400px) {
   .showcase-bar {
     grid-template-columns: 1fr auto;
     gap: 10px 16px;
